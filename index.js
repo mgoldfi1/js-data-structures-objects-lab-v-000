@@ -11,5 +11,5 @@ const driver = {}
   function deleteFromDriverByKey(driver, key) {
     const clone = driver
     delete clone.key
-
+    return clone 
   }
