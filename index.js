@@ -9,5 +9,5 @@ const driver = {}
   }
 
   function deleteFromDriverByKey(driver, key) {
-    driver.delete(key)
+    driver.delete(:key)
   }
