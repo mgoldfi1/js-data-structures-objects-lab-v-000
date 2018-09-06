@@ -9,7 +9,7 @@ const driver = {}
   }
 
   function deleteFromDriverByKey(driver, key) {
-    const new = Object.assign({}, driver)
+
 
 
   }
