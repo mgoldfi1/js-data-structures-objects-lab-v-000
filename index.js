@@ -9,7 +9,7 @@ const driver = {}
   }
 
   function deleteFromDriverByKey(driver, key) {
-    const clone = {...driver}
+    const clone = Object.assign({}, driver)
     delete clone.key
     return clone
   }
